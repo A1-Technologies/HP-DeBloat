@@ -179,7 +179,15 @@ if ($manufacturer -like "*HP*")
         "AD2F1837.HPQuickDrop"
         "AD2F1837.HPSupportAssistant"
         "AD2F1837.HPSystemInformation"
+        "AD2F1837.11510256BE195"
+        "AD2F1837.HPAIExperienceCenter"
+        "AD2F1837.HPDisplayCenter"
+        "AD2F1837.HPInc.EnergyStar"
+        "AD2F1837.HPPrinterControl"
+        "AD2F1837.HPSystemEventUtility"
         "AD2F1837.myHP"
+        "AD2F1837.OMENCommandCenter"
+        "HP One Agent"
         "RealtekSemiconductorCorp.HPAudioControl",
         "HP Sure Recover",
         "HP Sure Run Module"
@@ -194,7 +202,7 @@ if ($manufacturer -like "*HP*")
         "HP Audio Control"
         "HP Documentation"
         "AD2F1837.HPAudioControl"
-        "HP Connect Optimizer"
+        "HP Connection Optimizer"
     )
 
     $UninstallPrograms = $UninstallPrograms | Where-Object { $appstoignore -notcontains $_ }
